@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="myFishyFriend.MainPage">
+
+
+    <StackLayout
+        Orientation="Vertical"
+        VerticalOptions="CenterAndExpand">
+
+        <!--My fishy friend welcome text-->
+        <StackLayout
+        HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand"
+           >
+
+            <StackLayout
+                Orientation="Horizontal"
+                HorizontalOptions="CenterAndExpand">
+            <Label
+                Text="My"
+                FontSize="35"
+                x:Name="my">
+            </Label>
+             </StackLayout>
+
+             <StackLayout
+                Orientation="Horizontal"
+                HorizontalOptions="CenterAndExpand">
+            <Label
+                Text="Fishy"
+                FontSize="35"
+                x:Name="fishy">
+            </Label>
+            </StackLayout>
+
+            <StackLayout
+                Orientation="Horizontal"
+                HorizontalOptions="CenterAndExpand">
+            <Label
+                Text="Friend"
+                FontSize="35"
+                 x:Name="friend">
+            </Label>
+             </StackLayout>
+
+        </StackLayout>
+
+        <!--Welcome Image-->
+        <StackLayout
+             Orientation="Horizontal"
+            HorizontalOptions="CenterAndExpand">
+            <Image
+                HeightRequest="105"
+                WidthRequest="105"
+                BackgroundColor="LightGray">
+            </Image>
+        </StackLayout>
+
+        <!--Start Button-->
+        <StackLayout
+             Orientation="Horizontal"
+            HorizontalOptions="CenterAndExpand"
+            Margin="0,115,0,0">
+            <Button Text="start"
+                    TextTransform="Lowercase"
+                    x:Name="StartButton"
+                    Clicked="StartButtonClicked"
+                    FontSize="25"
+                    CornerRadius="35"
+                    WidthRequest="225"
+                    HeightRequest="55"></Button>
+        </StackLayout>
+
+    </StackLayout> <!--End of layout-->
+
+</ContentPage>
+ 

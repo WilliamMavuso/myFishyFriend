@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{1520399C-A473-49B6-B9A0-470BE9D09D0C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="myFishyFriend/NamePage.xaml.cs">
+    <Files>
+      <File FileName="myFishyFriend/MainPage.xaml" Line="66" Column="46" />
+      <File FileName="myFishyFriend/HomePage.xaml" Line="6" Column="1" />
+      <File FileName="myFishyFriend/NamePage.xaml" Line="49" Column="38" />
+      <File FileName="myFishyFriend/MainPage.xaml.cs" Line="20" Column="1" />
+      <File FileName="myFishyFriend/NamePage.xaml.cs" Line="17" Column="49" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="myFishyFriend" expanded="True">
+            <Node name="myFishyFriend" expanded="True">
+              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="NamePage.xaml" expanded="True">
+                <Node name="NamePage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.myFishyFriend.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.79DDBA83-F32D-4CAC-916C-55A4D073ABFC" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.myFishyFriend.Android PreferredExecutionTarget="Android.Pixel_3a_API_30" />
+</Properties>

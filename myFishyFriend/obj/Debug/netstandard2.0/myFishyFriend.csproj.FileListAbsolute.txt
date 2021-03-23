@@ -1,0 +1,16 @@
+/Users/mbongenimavuso/Projects/myFishyFriend/myFishyFriend/bin/Debug/netstandard2.0/myFishyFriend.deps.json
+/Users/mbongenimavuso/Projects/myFishyFriend/myFishyFriend/bin/Debug/netstandard2.0/myFishyFriend.dll
+/Users/mbongenimavuso/Projects/myFishyFriend/myFishyFriend/bin/Debug/netstandard2.0/ref/myFishyFriend.dll
+/Users/mbongenimavuso/Projects/myFishyFriend/myFishyFriend/bin/Debug/netstandard2.0/myFishyFriend.pdb
+/Users/mbongenimavuso/Projects/myFishyFriend/myFishyFriend/obj/Debug/netstandard2.0/myFishyFriend.csprojAssemblyReference.cache
+/Users/mbongenimavuso/Projects/myFishyFriend/myFishyFriend/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/mbongenimavuso/Projects/myFishyFriend/myFishyFriend/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/mbongenimavuso/Projects/myFishyFriend/myFishyFriend/obj/Debug/netstandard2.0/myFishyFriend.AssemblyInfoInputs.cache
+/Users/mbongenimavuso/Projects/myFishyFriend/myFishyFriend/obj/Debug/netstandard2.0/myFishyFriend.AssemblyInfo.cs
+/Users/mbongenimavuso/Projects/myFishyFriend/myFishyFriend/obj/Debug/netstandard2.0/myFishyFriend.csproj.CoreCompileInputs.cache
+/Users/mbongenimavuso/Projects/myFishyFriend/myFishyFriend/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/mbongenimavuso/Projects/myFishyFriend/myFishyFriend/obj/Debug/netstandard2.0/myFishyFriend.dll
+/Users/mbongenimavuso/Projects/myFishyFriend/myFishyFriend/obj/Debug/netstandard2.0/ref/myFishyFriend.dll
+/Users/mbongenimavuso/Projects/myFishyFriend/myFishyFriend/obj/Debug/netstandard2.0/myFishyFriend.pdb
+/Users/mbongenimavuso/Projects/myFishyFriend/myFishyFriend/obj/Debug/netstandard2.0/NamePage.xaml.g.cs
+/Users/mbongenimavuso/Projects/myFishyFriend/myFishyFriend/obj/Debug/netstandard2.0/HomePage.xaml.g.cs

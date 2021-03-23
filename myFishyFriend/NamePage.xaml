@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="myFishyFriend.NamePage">
+
+        <StackLayout
+        Orientation="Vertical"
+        VerticalOptions="CenterAndExpand">
+
+        <!--My fishy friend welcome text-->
+        <StackLayout
+        HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand"
+           >
+
+            <StackLayout
+                Orientation="Horizontal"
+                HorizontalOptions="CenterAndExpand">
+            <Label
+                Text="Give your friend a name:"
+                FontSize="25"
+                x:Name="my">
+            </Label>
+             </StackLayout>
+
+        </StackLayout>
+
+        <!--Welcome Image-->
+        <StackLayout
+             Orientation="Horizontal"
+            HorizontalOptions="CenterAndExpand">
+            <Editor
+                WidthRequest="230"
+                Margin="0, 40, 0,0">
+
+            </Editor>
+        </StackLayout>
+
+        <!--Start Button-->
+        <StackLayout
+             Orientation="Horizontal"
+            HorizontalOptions="CenterAndExpand"
+            Margin="0,115,0,0">
+            <Button Text="enter"
+                    TextTransform="Lowercase"
+                    x:Name="EnterButton"
+                    Clicked="EnterButtonClicked"
+                    FontSize="25"
+                    CornerRadius="35"
+                    WidthRequest="225"
+                    HeightRequest="55"></Button>
+        </StackLayout>
+
+    </StackLayout> <!--End of layout-->
+</ContentPage>
