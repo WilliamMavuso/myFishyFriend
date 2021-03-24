@@ -1,21 +1,21 @@
-﻿<Properties StartupConfiguration="{1520399C-A473-49B6-B9A0-470BE9D09D0C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="myFishyFriend/NamePage.xaml.cs">
+﻿<Properties StartupConfiguration="{3E88EFCE-78D9-4FCF-8538-2A7D2A9B9536}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="myFishyFriend.iOS/AppDelegate.cs">
     <Files>
-      <File FileName="myFishyFriend/MainPage.xaml" Line="66" Column="46" />
-      <File FileName="myFishyFriend/HomePage.xaml" Line="6" Column="1" />
-      <File FileName="myFishyFriend/NamePage.xaml" Line="49" Column="38" />
-      <File FileName="myFishyFriend/MainPage.xaml.cs" Line="20" Column="1" />
-      <File FileName="myFishyFriend/NamePage.xaml.cs" Line="17" Column="49" />
+      <File FileName="myFishyFriend/HomePage.xaml" Line="37" Column="15" />
+      <File FileName="myFishyFriend/HomePage.xaml.cs" Line="4" Column="21" />
+      <File FileName="myFishyFriend.Android/MainActivity.cs" Line="43" Column="1" />
+      <File FileName="myFishyFriend.iOS/AppDelegate.cs" Line="40" Column="30" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="myFishyFriend" expanded="True">
             <Node name="myFishyFriend" expanded="True">
-              <Node name="MainPage.xaml" expanded="True" />
-              <Node name="NamePage.xaml" expanded="True">
-                <Node name="NamePage.xaml.cs" selected="True" />
-              </Node>
+              <Node name="HomePage.xaml" expanded="True" />
+            </Node>
+            <Node name="myFishyFriend.Android" expanded="True" />
+            <Node name="myFishyFriend.iOS" expanded="True">
+              <Node name="AppDelegate.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -24,7 +24,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.myFishyFriend.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.79DDBA83-F32D-4CAC-916C-55A4D073ABFC" />
+  <MonoDevelop.Ide.ItemProperties.myFishyFriend.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.79DDBA83-F32D-4CAC-916C-55A4D073ABFC" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

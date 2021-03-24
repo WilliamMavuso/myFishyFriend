@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 
 using Foundation;
+using ObjCRuntime;
 using UIKit;
+using Xamarin.Forms;
 
 namespace myFishyFriend.iOS
 {
@@ -26,6 +28,25 @@ namespace myFishyFriend.iOS
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);
+        }
+
+        public override UIInterfaceOrientationMask GetSupportedInterfaceOrientations(UIApplication application, UIWindow forWindow)
+        {
+            if (Xamarin.Forms.Application.Current == null || Xamarin.Forms.Application.Current.MainPage == null)
+            {
+                return UIInterfaceOrientationMask.Portrait;
+            }
+
+            var mainPage = Xamarin.Forms.Application.Current.MainPage;
+
+            if (mainPage is HomePage ||
+               (mainPage is NavigationPage && ((NavigationPage)mainPage).CurrentPage is HomePage) ||
+               (mainPage.Navigation != null && mainPage.Navigation.ModalStack.LastOrDefault() is HomePage))
+            {
+                return UIInterfaceOrientationMask.Landscape;
+            }
+
+            return UIInterfaceOrientationMask.Portrait;
         }
     }
 }
